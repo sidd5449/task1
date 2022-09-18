@@ -1,7 +1,7 @@
 .app__courses{
     padding: 4vh 10vw;
     width: 80vw;
-    margin-top: 6vh;
+    margin-top: 12vh;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -17,6 +17,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 80vw;
+
     
 
     .app__courses-card{
@@ -29,6 +30,12 @@
         flex-direction: column;
         align-items: center;
         gap: 4vh;
+
+        @media screen and (max-width: 420px) {
+            width: 28vw;
+            border: 2px solid var(--secondary-color);
+            margin-top: 4vh;
+        }
 
 
         p{
@@ -49,4 +56,7 @@
             }
         }
     }
+}
+.courseLink{
+    text-decoration: none;
 }

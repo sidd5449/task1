@@ -10,7 +10,7 @@ import s5 from '../../assets/s5.jpg';
 
 const ImgCarousel = () => {
   return (
-    <div className="app__imgcarousel">
+    <div className="app__imgcarousel" id='gallery'>
         <h1>Few Glimpses of the Campus</h1>
         <Carousel
             className='imgCarousel'

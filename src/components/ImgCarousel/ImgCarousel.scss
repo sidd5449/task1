@@ -7,9 +7,17 @@
     align-items: center;
     gap: 8vh;
 
+    @media screen and (max-width: 420px) {
+        margin-top: 3vh;   
+    }
+
     h1{
         font-size: 5vh;
         color: var(--primary-color);
+
+        @media screen and (max-width: 420px) {
+            text-align: center;
+        }
     }
 }
 .imgCarousel{

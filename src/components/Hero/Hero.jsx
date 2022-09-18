@@ -4,7 +4,7 @@ import backImg from '../../assets/background.jpg';
 
 const Hero = () => {
   return (
-    <div className="app__hero">
+    <div className="app__hero" id='hero'>
       <div className="app__hero-left">
         <h1>Expanding Opportunities with a <span>New Campus</span></h1>
 

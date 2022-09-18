@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Navbar.scss";
+import {Link as SCLink} from 'react-scroll';
 
 const Navbar = () => {
   return (
@@ -8,10 +9,10 @@ const Navbar = () => {
             <h2>COEP Tech</h2>
         </div>
         <div className="app__navbar-menu">
-            <a href="/">Facilities</a>
-            <a href="/">Courses</a>
-            <a href="/">Infrastructure</a>
-            <a href="/">Gallery</a>
+            <SCLink to="about">About</SCLink>
+            <SCLink to="courses">Courses</SCLink>
+            <SCLink to="gallery">Gallery</SCLink>
+            
         </div>
     </div>
   )

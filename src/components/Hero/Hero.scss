@@ -6,9 +6,21 @@
     gap: 8vh;
     padding-bottom: 0;
 
+    @media screen and (max-width: 420px) {
+        flex-direction: column;
+        align-items: center;     
+        padding: 10vh 10vw;
+        width: 80vw;  
+    }
+
     h1{
         font-weight: 800;
         font-size: 6vh;
+
+        @media screen and (max-width: 420px) {
+            text-align: center;
+            font-size: 5vh;   
+        }
 
         span{
             text-decoration: underline;
@@ -18,6 +30,10 @@
     p{
         text-align: left;
         font-size: 3vh;
+        @media screen and (max-width: 420px) {
+            text-align: center;
+            font-size: 5vw;   
+        }
     }
 }
 .app__hero-left{
@@ -25,13 +41,16 @@
     flex-direction: column;
     width: 50vw;
     gap: 6vh;
-    padding-right: 5vw;
     align-items: flex-start;
+
+    @media screen and (max-width: 420px) {
+        width: 80vw;       
+    }
 
 }
 .app__hero-right{
     width: 30vw;
-    height: 60vh;
+    height: 80vh;
 
     img{
         width: 30vw;
@@ -39,6 +58,15 @@
         object-fit: cover;
         border-radius: 4vw 0 0 0;
 
+        @media screen and (max-width: 420px) {
+            width: 80vw;   
+        }
+
+    }
+
+    @media screen and (max-width: 420px) {
+          width: 80vw;
+          align-items: center;  
     }
 }
 .app__hero-btns{
@@ -46,6 +74,9 @@
     justify-content: space-between;
     width: 30vw;
     margin-top: 4vh;
+    @media screen and (max-width: 420px) {
+        width: 80vw;       
+    }
 
     button{
         padding: 2.5vh 2vw;
@@ -56,6 +87,10 @@
         font-size: 2.2vh;
         color: var(--light-background);
         border-radius: 2vh;
+
+        @media screen and (max-width: 420px) {
+            width: 26vw;   
+        }
         
         cursor: pointer;
         transition: all ease-in-out 0.2s;
