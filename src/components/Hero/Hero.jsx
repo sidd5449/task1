@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Hero.scss";
-import { FiChevronsDown } from 'react-icons/fi';
 import backImg from '../../assets/background.jpg';
 
 const Hero = () => {
@@ -15,12 +14,6 @@ const Hero = () => {
           <button>Facilities</button>
           <button id='infra'>Infrastructure</button>
         </div>
-        <button id='scroll-btn'>
-          <FiChevronsDown 
-            size={35}
-            color="var(--primary-color)"
-          />
-        </button>
       </div>
       <div className="app__hero-right">
         <img src={backImg} alt="backImg" />
