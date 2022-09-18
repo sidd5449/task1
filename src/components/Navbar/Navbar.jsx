@@ -8,10 +8,10 @@ const Navbar = () => {
             <h2>COEP</h2>
         </div>
         <div className="app__navbar-menu">
-            <a href="">Facilities</a>
-            <a href="">Courses</a>
-            <a href="">Infrastructure</a>
-            <a href="">Gallery</a>
+            <a href="/">Facilities</a>
+            <a href="/">Courses</a>
+            <a href="/">Infrastructure</a>
+            <a href="/">Gallery</a>
         </div>
     </div>
   )

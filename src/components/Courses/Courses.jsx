@@ -1,6 +1,6 @@
 import React from 'react';
 import './Courses.scss';
-import { FiServer, FiActivity, FiCpu, FiSliders, FiSettings, FiRadio, FiHome, FiBattery } from 'react-icons/fi';
+import { FiServer, FiCpu, FiSliders, FiSettings, FiRadio, FiHome, FiFilter } from 'react-icons/fi';
 
 const courses = [{courseName:"CS"}, {courseName:"E&TC"}, {courseName:"Electrical"}, {courseName:"Mechanical"}, {courseName:"Instrumentation"}, {courseName:"Civil"}, {courseName:"Metallurgy"}]
 
@@ -11,7 +11,7 @@ const courseIcons = [
     FiSettings, 
     FiCpu, 
     FiHome, 
-    FiBattery
+    FiFilter
 ]
 const Courses = () => {
   return (
