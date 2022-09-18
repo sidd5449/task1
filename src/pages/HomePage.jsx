@@ -1,9 +1,10 @@
 import React from 'react'
 import About from '../components/About/About'
 import Courses from '../components/Courses/Courses'
+import Footer from '../components/Footer/Footer'
 import Hero from '../components/Hero/Hero'
+import ImgCarousel from '../components/ImgCarousel/ImgCarousel'
 import Navbar from '../components/Navbar/Navbar'
-import Slideshow from '../components/Slideshow/Slideshow'
 
 const HomePage = () => {
   return (
@@ -12,7 +13,8 @@ const HomePage = () => {
         <Hero />
         <About />
         <Courses />
-        <Slideshow />
+        <ImgCarousel />
+        <Footer />
     </div>
   )
 }

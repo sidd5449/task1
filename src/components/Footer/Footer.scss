@@ -1,0 +1,35 @@
+.app__footer{
+    width: 80vw;
+    padding: 4vh 10vw;
+    background-color: var(--primary-color);
+    height: 20vh;
+    margin-top: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+.app__footer-left{
+    display: flex;
+    flex-direction: column;
+
+    p{
+        color: var(--light-background);
+        margin-top: 2vh;
+    }
+}
+.app__footer-left h2{
+    color: var(--light-background);
+}
+.app__footer-right{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+
+    a{
+        color: var(--light-background);
+        text-decoration: none;
+
+        &:hover{
+            color: var(--cta-color);
+        }
+    }
+}
