@@ -18,3 +18,44 @@
         font-size: 2.5vh;
     }
 }
+.app__about-cards{
+    display: flex;
+    width: 65vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.app__about-card{
+    width: 15vw;
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    padding: 4vh;
+    justify-content: center;
+    transition: all ease-in-out 0.2s;
+    border-radius: 1vh;
+
+    .icon{
+        color: var(--primary-color);
+    }
+
+    .app__about-card-title h2{
+        font-size: 2.5vh;
+    }
+
+    &:hover{
+        background-color: var(--secondary-color);
+
+        .app__about-card-title h2{
+            color: var(--light-background);
+        }
+        .icon{
+            color: var(--light-background);
+        }
+    }
+}
